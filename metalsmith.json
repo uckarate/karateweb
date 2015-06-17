@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "UC Berkeley Karate Club",
+    "description": "Website for UC Berkeley Karate Club"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
+  }
+}
